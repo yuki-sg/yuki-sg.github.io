@@ -1,22 +1,24 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+// import typescriptLogo from './typescript.svg'
+// import viteLogo from '/vite.svg'
+import githubLogo from './github-mark.svg'
+import linkedLogo from './LI-In-Bug.png'
 import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+    <a href="https://github.com/yuki-sg" target="_blank">
+      <img src="${githubLogo}" class="logo" alt="GitHub logo" />
     </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
+    <a href="https://www.linkedin.com/in/yuki-sugawara-7821651ba/" target="_blank">
+      <img src="${linkedLogo}" class="logo vanilla" alt="Linkedin logo" />
     </a>
-    <h1>Vite + TypeScript</h1>
+    <h1>yuki sugar</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
+      こんにちは。
     </p>
   </div>
 `
