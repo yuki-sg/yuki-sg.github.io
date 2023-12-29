@@ -5,6 +5,7 @@ import githubLogo from './github-mark.svg'
 import linkedLogo from './LI-In-Bug.png'
 import wantedlyLogo from './Wantedly_Mark_LightBG.svg'
 import threadsLogo from './threads-logo-black.svg'
+import zennLogo from './logo-only.svg'
 import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -17,6 +18,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </a>
     <a href="https://www.linkedin.com/in/yuki-sugawara-7821651ba/" target="_blank">
       <img src="${linkedLogo}" class="logo vanilla" alt="Linkedin logo" />
+    </a>
+    <a href="https://zenn.dev/be_emo" target="_blank">
+      <img src="${zennLogo}" class="logo vanilla" alt="zenn logo" />
     </a>
     <a href="https://www.threads.net/@yk_sgwr" target="_blank">
       <img src="${threadsLogo}" class="logo vanilla" alt="Threads logo" />
